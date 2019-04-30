@@ -13,6 +13,8 @@ The workaround should really be a custom module since you probably do not want t
 
 My use case in this example assumes that devices do not need to register via RADIUS (in a browser / somewhere else etc). 
 
+So Radius Client --> LDAP ---> OATH ---> Enter TOTP ---> AuthN.
+
 Say we have a chain like this (it could be Required aswell):
 ![enter image description here](https://lh3.googleusercontent.com/2ik1ri3Dyhh0isO7GqUjmaaSKPnWhW2GnownsHfE6iRLpZmTR4aYpaT8SjBi_3S2mmmFUwM4YWyy) 
 
