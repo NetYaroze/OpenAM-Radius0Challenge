@@ -161,7 +161,7 @@ You can have a look at the changes to default AuthenticatorOATH.xml like so.
     <!-- Display recovery code -->
     <Callbacks length="11" order="8" timeout="120" header="ForgeRock
     Authenticator (OATH) Recovery Codes">
-**NB note the above was done in an older version (i changed versions as my instance crashed, hence the difference in XML files.
+**NB From a colleague here at FR.
 
 Now if you do access this chain:
 
